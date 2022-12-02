@@ -1,0 +1,12 @@
+<div>
+    <h3>Barns R Us</h3>
+
+    <div *ngIf="barnList">
+        <div *ngFor="let barn of barnList">
+            <p>{{barn.barnName}}</p>
+            <p>{{barn.barnSize}}</p>
+        </div>
+    </div>
+</div>
+
+
